@@ -13,7 +13,7 @@ func check_err(err error) {
 }
 
 func main() {
-	file_content, err := ioutil.ReadFile("../inputs/day1_1.in")
+	file_content, err := ioutil.ReadFile("../inputs/day1.in")
 	check_err(err)
 	current_cal := int(0)
 	current_total_cal := int(0)
